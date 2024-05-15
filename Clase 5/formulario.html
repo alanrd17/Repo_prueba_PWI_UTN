@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+    <hr>
+    <!-- etiquetas de entrada de datos -->
+    <form>
+        <div>
+            <label for="Nombre">Ingresar nombre aqui:</label>
+            <input type="text" name="Nombre" id="Nombre"> <!-- type: se coloca entre comillas los input a utilizar -->
+        </div>
+        <div>  
+            <label for="Contraseña">Ingrese la Contraseña aqui</label>
+            <input type="password" name="Contraseña" id="Contraseña" required maxlength="15
+    ">
+        </div>
+        <div>
+            <label for="email">Ingresar tu correo:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="pais">selecciona tu pais</label>
+            <select name="pais" id="pais">
+                <option value="NO"  selected disabled>NO SELECCIONADO</option>
+                <option value="AR">Argentina</option>
+                <option value="URSS">URSS</option>
+            </select>    
+        </div>
+        <div>
+            <label for="pais1">Seleccione un pais
+                <span>URSS</span><input type="radio" name="pais1" id="URSS">
+            </label>
+        </div>
+        <div>
+            <label for="mensaje">Ingrese su mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe..."></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Confirmar">
+            <button type="submit">Enviar</button> <!--enviar formulario sin recargar ambas son formas de hacer un boton submt, pero input es solo texto y button se puede agregar icono -->
+        </div>
+
+    </form>
+</body>
+</html>
