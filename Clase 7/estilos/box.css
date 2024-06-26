@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Rubik+Glitch+Pop&display=swap');
+*{
+    font-family:  "MedievalSharp", cursive;
+}
+.caja{
+    background-color: aqua;
+    height: 100px;
+}
+a{
+    background-color: yellowgreen;
+    /* width: 300; */
+    display: inline-block;
+}

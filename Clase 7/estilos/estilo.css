@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Rubik+Glitch+Pop&display=swap');
+*{
+    font-family:  "MedievalSharp", cursive;
+}
+h1{
+
+    color: rgb(219, 70, 70);
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+    text-decoration: underline black dashed;
+    text-shadow:
+    10 px 1px 3px rgb(177, 46, 46),
+    0 px 0px 3px rgb(177, 46, 46)
+    1 px 1px 3px rgb(243, 193, 86); /* medidas: eje a; eje y ; difuminado, color */
+    background-color: rgb(209, 194, 194);
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    font-family:  "MedievalSharp", cursive;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 20px;
+}
+p{
+    font-weight: 600;
+}
